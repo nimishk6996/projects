@@ -1,0 +1,9 @@
+# research datasets are never committed (license) - code and results only
+data/
+*.dcm
+*.avi
+*.pt
+.venv/
+__pycache__/
+.DS_Store
+train-full.log
