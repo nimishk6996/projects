@@ -1,7 +1,8 @@
-torch
-torchvision
-opencv-python-headless
-pandas
-numpy
-pydicom
-scikit-learn
+# tested with Python 3.9 on an Apple-silicon Mac
+torch==2.8.0
+torchvision==0.23.0
+opencv-python-headless==5.0.0.93
+pandas==2.3.3
+numpy==2.0.2
+pydicom==2.4.4
+scikit-learn==1.6.1

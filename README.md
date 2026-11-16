@@ -6,7 +6,7 @@ Three small deep-learning projects on public medical imaging datasets. Each fold
 | --- | --- | --- | --- | --- |
 | [1-brain-bleed-ct](1-brain-bleed-ct) | Head CT slice (DICOM) | Bleed yes/no + 5 bleed types | ResNet-50, 6 outputs | Code self-checked on synthetic slices; not yet run on real data |
 | [2-heart-echo-ejection-fraction](2-heart-echo-ejection-fraction) | Heart ultrasound video | Ejection fraction (%) | R(2+1)D video CNN | Code self-checked on synthetic videos; not yet run on real data |
-| [3-bone-age-hand-xray](3-bone-age-hand-xray) | Child's hand X-ray + sex | Bone age (months) | ResNet-50 + sex input | Run on real data (500-image subset) |
+| [3-bone-age-hand-xray](3-bone-age-hand-xray) | Child's hand X-ray + sex | Bone age (months) | ResNet-50 + sex input | Trained on the full dataset: 7.3 months error vs 33.9 baseline |
 
 ## Setup
 

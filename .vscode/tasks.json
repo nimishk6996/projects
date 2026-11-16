@@ -4,6 +4,6 @@
     { "label": "1 Brain bleed CT: self-check", "type": "shell", "command": "../.venv/bin/python test_train.py", "options": { "cwd": "${workspaceFolder}/1-brain-bleed-ct" }, "problemMatcher": [] },
     { "label": "2 Heart echo EF: self-check", "type": "shell", "command": "../.venv/bin/python test_train.py", "options": { "cwd": "${workspaceFolder}/2-heart-echo-ejection-fraction" }, "problemMatcher": [] },
     { "label": "3 Bone age: self-check", "type": "shell", "command": "../.venv/bin/python test_train.py", "options": { "cwd": "${workspaceFolder}/3-bone-age-hand-xray" }, "problemMatcher": [] },
-    { "label": "3 Bone age: train on 500 X-rays", "type": "shell", "command": "../.venv/bin/python train.py --csv data/boneage-training-dataset.csv --images data/boneage-training-dataset/boneage-training-dataset --subset 500 --size 256 --epochs 3", "options": { "cwd": "${workspaceFolder}/3-bone-age-hand-xray" }, "problemMatcher": [] }
+    { "label": "3 Bone age: quick trial on 500 X-rays", "type": "shell", "command": "../.venv/bin/python train.py --csv data/boneage-training-dataset.csv --images data/boneage-training-dataset/boneage-training-dataset --subset 500 --size 256 --epochs 3 --out trial.pt", "options": { "cwd": "${workspaceFolder}/3-bone-age-hand-xray" }, "problemMatcher": [] }
   ]
 }
